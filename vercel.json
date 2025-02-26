@@ -2,7 +2,7 @@
   "version": 2,
   "framework": null,
   "buildCommand": "yarn build:web",
-  "outputDirectory": "dist/.vercel",
+  "outputDirectory": "dist/.vercel/output/static",
   "installCommand": "yarn install",
   "cleanUrls": true,
   "public": true,
