@@ -1,8 +1,8 @@
 {
   "version": 2,
   "framework": null,
-  "buildCommand": "yarn build:web",
-  "outputDirectory": "dist/.vercel/output/static",
+  "buildCommand": "cp vite.config.example vite.config.ts && yarn build:web && cp -r ./dist/.vercel .vercel",
+  "outputDirectory": ".vercel/output/static",
   "installCommand": "yarn install",
   "cleanUrls": true,
   "public": true,
