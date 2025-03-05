@@ -1,7 +1,7 @@
 {
   "version": 2,
   "framework": null,
-  "buildCommand": "yarn build:web && cp -r ./dist/.vercel .vercel",
+  "buildCommand": "yarn build:web && mkdir -p .vercel && cp -r ./dist/.vercel .vercel",
   "outputDirectory": ".vercel/output",
   "installCommand": "./install.sh && yarn install",
   "cleanUrls": true,
@@ -17,6 +17,5 @@
       ]
     }
   ],
-  "env": {
-  }
+  "env": {}
 }
