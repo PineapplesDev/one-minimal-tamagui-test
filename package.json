@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "android": "one run:android",
-    "build:web": "one build && mkdir -p .vercel/output && mv ./dist/.vercel/output .vercel/output",
+    "build": "one build && mkdir -p .vercel/output && mv ./dist/.vercel/output .vercel/output",
+    "build:web": "one build && mkdir -p .vercel/output",
     "typecheck": "tsc --noEmit",
     "clean": "one clean",
     "dev": "one dev",
