@@ -1,9 +1,9 @@
 {
   "version": 2,
   "framework": null,
-  "buildCommand": "yarn build:web && mkdir -p .vercel && cp -r ./dist/.vercel .vercel",
-  "outputDirectory": ".vercel/output",
   "installCommand": "./install.sh && yarn install",
+  "buildCommand": "yarn build:web",
+  "outputDirectory": ".vercel/output",
   "cleanUrls": true,
   "public": true,
   "headers": [
